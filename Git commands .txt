@@ -1,0 +1,3 @@
+rm -rf .git --> it removes the .git folder, means the current folder will no longer be a git folder
+pwd --> present working directory, means abhi aap kis directory me ho
+ls --> List kar do us directory ke whole contents ko
