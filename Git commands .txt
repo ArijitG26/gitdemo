@@ -2,3 +2,5 @@ rm -rf .git --> it removes the .git folder, means the current folder will no lon
 pwd --> present working directory, means abhi aap kis directory me ho
 ls --> List kar do us directory ke whole contents ko
 cd --> Change directory. "cd <folder/directory name/>"
+git diff --> Yeh humare staging area and working directory ko compare karta hai. 
+		Agar koi file staged hoke modified kiya gaya hai wo difference dikhata hai.
