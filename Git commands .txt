@@ -1,6 +1,19 @@
 rm -rf .git --> it removes the .git folder, means the current folder will no longer be a git folder
+
 pwd --> present working directory, means abhi aap kis directory me ho
+
 ls --> List kar do us directory ke whole contents ko
+
 cd --> Change directory. "cd <folder/directory name/>"
+
 git diff --> Yeh humare staging area and working directory ko compare karta hai. 
 		Agar koi file staged hoke modified kiya gaya hai wo difference dikhata hai.
+
+git commit -a -m "Direct commit" --> make commit without staging a new file.
+
+git rm <file name> --> delete the file frome your device
+
+git mv <file name> <new file name and extension> --> renames the file and its extension also
+
+git rm --cached <file name> --> It explicitely untracks a file. Agar hum kisi file ko track karte karte .gitignore me daal bhi de
+				tab bhi wo file tack hoti rahegi. "rm --cached" command se hum uss file ko track karna band kar sakte hain.
